@@ -1,96 +1,164 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Rahaja | Python & Django Developer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
-      text-align: center;
-    }
-    header {
-      padding: 60px 20px;
-    }
-    h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
-    }
-    h2 {
-      font-weight: normal;
-      color: #38bdf8;
-    }
-    section {
-      padding: 40px 20px;
-    }
-    .card {
-      background: #020617;
-      margin: 20px auto;
-      padding: 20px;
-      max-width: 500px;
-      border-radius: 10px;
-    }
-    a {
-      color: #38bdf8;
-      text-decoration: none;
-    }
-    footer {
-      padding: 20px;
-      font-size: 0.9em;
-      color: #94a3b8;
-    }
-    img.profile-photo {
-      width: 150px;
-      border-radius: 50%;
-      margin-bottom: 15px;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV RAHAJA Andrianasolo - Développeur Django Freelance</title>
+<style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin:0; padding:0; background:#f4f4f4; color:#333;}
+    .container { max-width:900px; margin:auto; background:white; padding:20px; box-shadow:0 0 15px rgba(0,0,0,0.1);}
+    header { display:flex; align-items:center; margin-bottom:20px; }
+    header img { width:120px; height:120px; border-radius:50%; object-fit:cover; margin-right:20px; border:3px solid #007BFF; transition: transform 0.3s;}
+    header img:hover { transform: scale(1.1);}
+    header h1 { margin:0; font-size:2em; color:#007BFF; }
+    header h3 { margin:5px 0 0 0; font-weight:normal; color:#555; }
+    section { margin-bottom:20px; }
+    h2 { border-bottom:2px solid #007BFF; padding-bottom:5px; color:#007BFF; }
+    ul { list-style:none; padding:0; }
+    ul li { padding:5px 0; }
+    .experience, .education, .formations { margin-bottom:15px; }
+    .experience h3, .education h3, .formations h3 { margin:0; color:#333; }
+    .experience span, .education span, .formations span { font-size:0.9em; color:#777; }
+    .skills li { display:inline-block; background:#007BFF; color:white; padding:5px 10px; margin:5px 5px 0 0; border-radius:5px; font-size:0.9em; }
+    a { color:#007BFF; text-decoration:none; transition:0.3s;}
+    a:hover { text-decoration:underline; }
+    .btn { display:inline-block; padding:10px 15px; background:#007BFF; color:white; border-radius:5px; margin:5px 0; text-decoration:none; transition:0.3s; }
+    .btn:hover { background:#0056b3; }
+    .projects a { display:block; margin:5px 0; padding:5px 10px; background:#e9f0ff; border-radius:5px; }
+    @media(max-width:600px){ header { flex-direction:column; text-align:center; } header img { margin-bottom:10px; } }
+</style>
 </head>
 <body>
+<div class="container">
+    <header>
+        <img src="photo de profile.jpg" alt="Photo de Profil">
+        <div>
+            <h1>RAHAJA Andrianasolo</h1>
+            <h3>Electromécanicien | Développeur Web Python/Django Freelance</h3>
+        </div>
+    </header>
 
-<header>
-  <img class="profile-photo" src="photo de profile.jpg" alt="Photo de Profil">
-  <h1>Rahaja Andrianasolo</h1>
-  <h2>Python & Django Web Developer</h2>
-</header>
+    <section>
+        <h2>Contact</h2>
+        <ul>
+            <li>📞 +261 33 02 387 82</li>
+            <li>✉️ <a href="mailto:andrianasolo.rahaja@gmail.com">andrianasolo.rahaja@gmail.com</a></li>
+            <li>🏠 Lot K 120 Dépot Analankininina, TOAMASINA, MADAGASCAR</li>
+        </ul>
+        <a href="CV_Rahaja.pdf" class="btn" download>Télécharger le CV PDF</a>
+    </section>
 
-<section>
-  <div class="card">
-    <h3>À propos de moi</h3>
-    <p>
-      Développeur web freelance spécialisé en Python et Django.
-      Passionné par le développement de projets pratiques et efficaces.
-    </p>
-  </div>
+    <section>
+        <h2>Profil</h2>
+        <p>Électromécanicien avec 9 ans d'expérience et développeur freelance Python/Django. Passionné par l'automatisation, le développement web moderne et le travail en équipe, je crée des solutions performantes et fiables.</p>
+    </section>
 
-  <div class="card">
-    <h3>Compétences</h3>
-    <p>Python • Django • HTML • CSS • JavaScript • Git • GitHub</p>
-  </div>
+    <section>
+        <h2>Compétences</h2>
+        <ul class="skills">
+            <li>Pensée innovante</li>
+            <li>Expertise technique</li>
+            <li>Dévweb (HTML, CSS, JS)</li>
+            <li>Python / Django</li>
+            <li>Dépannage & Diagnostic</li>
+            <li>Systèmes automatisés</li>
+            <li>SQL / Bases de données</li>
+            <li>Esprit d'équipe</li>
+            <li>Résilience</li>
+        </ul>
+    </section>
 
-  <div class="card">
-    <h3>Projets</h3>
-    <p>
-      Portfolio en ligne (ce site)<br>
-      Projets Django / Web Apps en cours
-    </p>
-  </div>
+    <section>
+        <h2>Expériences professionnelles</h2>
 
-  <div class="card">
-    <h3>Contact</h3>
-    <p>
-      GitHub: <a href="https://github.com/rahajaa" target="_blank">github.com/rahajaa</a><br>
-      Email: andrianasolo.rahaja@gmail.com
-    </p>
-  </div>
-</section>
+        <div class="experience">
+            <h3>Electromécanicien, Genset / Hydro-compresseur</h3>
+            <span>AMBATOVY DMSA | 07/02/2018 - Aujourd'hui | TOAMASINA</span>
+            <ul>
+                <li>Maintenance proactive des équipements de génération d'énergie.</li>
+                <li>Technicien Air Compressor & Genset, disponibilité opérationnelle des équipements.</li>
+                <li>Technicien Pont Roulant, sécurité et productivité des levages.</li>
+            </ul>
+        </div>
 
-<footer>
-  © 2025 Rahaja — Built with HTML & CSS
-</footer>
+        <div class="experience">
+            <h3>Technicien de Maintenance Service Après-Vente</h3>
+            <span>BATPRO S.A | 17/11/2015 - 07/02/2018 | ANTANANARIVO</span>
+            <ul>
+                <li>Maintenance électrique et électronique, satisfaction client garantie.</li>
+            </ul>
+        </div>
 
+        <div class="experience">
+            <h3>Electricien et Technicien de Maintenance</h3>
+            <span>CIMELTA S.A | 12/02/2015 - 17/11/2015 | TANA</span>
+            <ul>
+                <li>Maintenance équipements électriques et mécaniques de marques reconnues.</li>
+            </ul>
+        </div>
+
+        <div class="experience">
+            <h3>Electricien de Bâtiment</h3>
+            <span>H.C.M Habitat Construction | 01/11/2012 - 12/02/2015 | Soavimasoandro</span>
+            <ul>
+                <li>Installation, maintenance et dépannage des systèmes électriques de bâtiments.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Éducation</h2>
+        <div class="education">
+            <h3>Licence en Gestion d'Entreprise</h3>
+            <span>Université ECAT Fianarantsoa | 2019 - 2022</span>
+        </div>
+        <div class="education">
+            <h3>Technicien Supérieur Maintenance Électrotechnique</h3>
+            <span>EEEFPC | 2008</span>
+        </div>
+        <div class="education">
+            <h3>Baccalauréat Série D</h3>
+            <span>Université de Tananarive | 2001-2005</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>Formations Techniques & HSE</h2>
+        <ul>
+            <li>CUMMINS Trade Training - 2024</li>
+            <li>HTML, CSS, JS, Python (FreeCodeCamp) - 2023-en cours</li>
+            <li>Conduite camions / chariot élévateur CACES - 2022-2023</li>
+            <li>Technicians for Africa «Caterpillar» - 2021</li>
+            <li>Formations ATEX, Rigging, Forklift, Habilitation électrique B0-B2</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Logiciels & Technologies</h2>
+        <ul>
+            <li>Microsoft Office / Excel / Visual Basic</li>
+            <li>AutoCAD / Sage 100</li>
+            <li>HTML / CSS / JavaScript</li>
+            <li>Python 3.12 / Django</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Projets & Portfolio Django</h2>
+        <div class="projects">
+            <a href="https://github.com/rahaja/mc105_project" target="_blank">MC105 Project - Django</a>
+            <a href="https://github.com/rahaja/django-webapp" target="_blank">WebApp Django Freelance</a>
+            <a href="https://github.com/rahaja" target="_blank">Voir tous mes projets GitHub</a>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact pour Mission Freelance Django</h2>
+        <p>Développeur Backend Python/Django (Freelance) <br>
+        email : <a href="mailto:horitacode@gmail.com">horitacode@gmail.com</a>  <br>
+        WhatsApp : <a href="https://wa.me/261330238782" class="btn">+261330238782</a></p>
+    </section>
+
+</div>
 </body>
 </html>
